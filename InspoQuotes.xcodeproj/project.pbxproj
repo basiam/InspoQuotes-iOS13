@@ -37,6 +37,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D8EFDDD25BEF098006ED3CF /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		AD18A83121285CAF00F6BF05 = {
 			isa = PBXGroup;
 			children = (
@@ -57,22 +64,15 @@
 		AD18A83C21285CAF00F6BF05 /* InspoQuotes */ = {
 			isa = PBXGroup;
 			children = (
+				4D8EFDDD25BEF098006ED3CF /* SupportingFiles */,
 				AD18A83D21285CAF00F6BF05 /* AppDelegate.swift */,
 				AD18A84F21285D4800F6BF05 /* QuoteTableViewController.swift */,
 				AD18A84121285CAF00F6BF05 /* Main.storyboard */,
 				AD18A84421285CB000F6BF05 /* Assets.xcassets */,
 				AD18A84621285CB000F6BF05 /* LaunchScreen.storyboard */,
-				AD18A8552128605C00F6BF05 /* Supporting Files */,
 				AD18A84921285CB000F6BF05 /* Info.plist */,
 			);
 			path = InspoQuotes;
-			sourceTree = "<group>";
-		};
-		AD18A8552128605C00F6BF05 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,7 +102,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1000;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1220;
 				ORGANIZATIONNAME = "London App Brewery";
 				TargetAttributes = {
 					AD18A83921285CAF00F6BF05 = {
@@ -201,6 +201,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -262,6 +263,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
